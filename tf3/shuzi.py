@@ -71,10 +71,3 @@ with tf.Session() as sess:
 
     print('test accuracy %g' % accuracy.eval(feed_dict={
         x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0}))
-'''
---------------------- 
-作者：懒散的木木酱 
-来源：CSDN 
-原文：https://blog.csdn.net/weixin_44350307/article/details/87797172 
-版权声明：本文为博主原创文章，转载请附上博文链接！
-'''
