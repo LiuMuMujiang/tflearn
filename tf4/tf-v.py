@@ -1,9 +1,5 @@
-# 导入TensorFlow and tf.keras
 import tensorflow as tf
-from tensorflow import keras
+from tensorflow.keras import layers
 
-# Helper libraries
-import numpy as np
-import matplotlib.pyplot as plt
-
-print(tf.__version__)
+print(tf.VERSION)
+print(tf.keras.__version__)
